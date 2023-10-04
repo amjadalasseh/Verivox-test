@@ -11,13 +11,12 @@ This service allows users to compare electricity tariffs and estimate their annu
 - [Sample Request](#sample-request)
 - [Sample Response](#sample-response)
 
-
 ## Prerequisites
 
 - Node.js (v16.x or higher)
 - npm (Node Package Manager)
 - TypeScript
-- Docker 
+- Docker
 
 ## Installation
 
@@ -46,3 +45,6 @@ The API will return a JSON response with a list of tariffs sorted by annual cost
 "annualCost": 800
 }
 ]
+
+- you can check the API with SWAGGER with
+  http://localhost:4000/api-docs
